@@ -16,8 +16,7 @@
 ## 📂 Project Structure
 BallCrusher/ │-- src/ │ └── main/ │ └── resources/ │ └── com/ │ └── example/ │ └── BallCrusher.java # Main game file with all logic │ │-- README.md # Project documentation └── build/ # (Optional) Place compiled .class or .jar files here
 
-yaml
-Copy code
+
 
 ---
 
@@ -47,25 +46,22 @@ Add JavaFX support:
 In IntelliJ: Go to File > Project Structure > Libraries, and add JavaFX SDK.
 Run the BallCrusher.java file from the path:
 css
-Copy code
+
 src/main/resources/com/example/BallCrusher.java
 Option 2: Using the Command Line
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/rchatthuska/BallCrusher.git
 cd BallCrusher/src/main/resources/com/example
 Compile the JavaFX program:
 
-bash
-Copy code
+
 javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls BallCrusher.java
 Replace /path/to/javafx-sdk/lib with the path to your JavaFX SDK folder.
 Run the game:
 
-bash
-Copy code
+
 java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls com.example.ballcrusher.BallCrusher
 🎮 How to Play
 Enter the number of balls and the time limit to beat in seconds.
@@ -86,8 +82,7 @@ This project is licensed under the MIT License.
 
 Enjoy the game and test your reflexes! 🚀🎉
 
-yaml
-Copy code
+
 
 ---
 
