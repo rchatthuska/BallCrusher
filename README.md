@@ -93,4 +93,3 @@ Enjoy the game and test your reflexes! 🚀🎉
 
 ---
 
-If you’re not sure how to install or set up JavaFX, let me know, and I can walk you through the pro
